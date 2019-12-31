@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="场景">
+      <UniqueIdentifier>{0d728481-fe0b-4799-a838-9bf3155e77af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏">
+      <UniqueIdentifier>{05be1478-d318-4085-9758-25addc1eab0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂">
+      <UniqueIdentifier>{74e1201b-b626-4392-a676-795846831e36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象">
+      <UniqueIdentifier>{62f16f0e-8c2f-44a5-850a-4d9a84098921}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象\静态对象">
+      <UniqueIdentifier>{26ea943f-e010-4968-b701-32b0d7e22c82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="管理">
+      <UniqueIdentifier>{46688640-19eb-4f10-99f6-210810f798bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="数学">
+      <UniqueIdentifier>{2c9b2618-4096-48e9-aa9b-37cb1c2e1b8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="网络">
+      <UniqueIdentifier>{2b4e6b73-34b1-47b7-a0ab-9c459f22411b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="观察者">
+      <UniqueIdentifier>{67ad923c-44ff-47bc-828e-e04b167d1c63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="定义">
+      <UniqueIdentifier>{c12d8d47-205a-4f73-95a6-975527cecac4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CScene.cpp">
+      <Filter>场景</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>游戏</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactory.cpp">
+      <Filter>工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="CObject.cpp">
+      <Filter>对象</Filter>
+    </ClCompile>
+    <ClCompile Include="CStaticObject.cpp">
+      <Filter>对象\静态对象</Filter>
+    </ClCompile>
+    <ClCompile Include="CSceneManager.cpp">
+      <Filter>管理</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CScene.h">
+      <Filter>场景</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>游戏</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactory.h">
+      <Filter>工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="CObject.h">
+      <Filter>对象</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticObject.h">
+      <Filter>对象\静态对象</Filter>
+    </ClInclude>
+    <ClInclude Include="CSceneManager.h">
+      <Filter>管理</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>数学</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>数学</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix4.h">
+      <Filter>数学</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix3.h">
+      <Filter>数学</Filter>
+    </ClInclude>
+    <ClInclude Include="hmessage.h">
+      <Filter>网络</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjectDefine.h">
+      <Filter>定义</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="场景">
+      <UniqueIdentifier>{45a1f512-042c-4337-9481-83a904225d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\开始场景">
+      <UniqueIdentifier>{476d99a6-4779-4349-835b-ca56e088c29b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="场景\游戏场景">
+      <UniqueIdentifier>{93febc00-549b-45df-8189-088e0c0a92c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象">
+      <UniqueIdentifier>{58a33c35-ef78-4919-af1f-4656b4c464b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象\静态对象">
+      <UniqueIdentifier>{fdbdf834-43b8-4ac7-bb58-23bf773c2808}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对象\静态对象\草">
+      <UniqueIdentifier>{3ba78aa1-dcd2-46b7-a059-b1471a7fe990}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂">
+      <UniqueIdentifier>{3c745619-f865-4c31-a922-631ad24f86e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工厂\静态工厂">
+      <UniqueIdentifier>{92b3b9b0-7f82-4eff-9c25-e239b237015f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏">
+      <UniqueIdentifier>{b5a9dc74-5725-4fcf-bae1-3e8d0dd92059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏\测试">
+      <UniqueIdentifier>{13c38da4-4a59-46ad-aa82-f3d3a47b7abd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Test-12.27.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Start.cpp">
+      <Filter>场景\开始场景</Filter>
+    </ClCompile>
+    <ClCompile Include="CFactory_Static.cpp">
+      <Filter>工厂\静态工厂</Filter>
+    </ClCompile>
+    <ClCompile Include="CScene_Game.cpp">
+      <Filter>场景\游戏场景</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame_Test.cpp">
+      <Filter>游戏\测试</Filter>
+    </ClCompile>
+    <ClCompile Include="CStaticObject_Grass.cpp">
+      <Filter>对象\静态对象\草</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CScene_Start.h">
+      <Filter>场景\开始场景</Filter>
+    </ClInclude>
+    <ClInclude Include="CFactory_Static.h">
+      <Filter>工厂\静态工厂</Filter>
+    </ClInclude>
+    <ClInclude Include="CScene_Game.h">
+      <Filter>场景\游戏场景</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame_Test.h">
+      <Filter>游戏\测试</Filter>
+    </ClInclude>
+    <ClInclude Include="CStaticObject_Grass.h">
+      <Filter>对象\静态对象\草</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
